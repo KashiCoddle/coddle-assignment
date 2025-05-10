@@ -1,13 +1,4 @@
-<!-- THIS CODE IS ON KASHINAT.UNNE.143@GMAIL.COM  file as on chatgpt is HTML CSS Layout Design-->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travel Destination</title>
-  <style>
-    /* General Reset */
+ 
     * {
       margin: 0;
       padding: 0;
@@ -24,7 +15,7 @@
       height: 100%;
     }
 
-    /* Navbar Styling */
+    
     .navbar {
       width: 100%;
       display: flex;
@@ -105,7 +96,7 @@
       background: #3b37b1;
     }
 
-    /* Container and Background */
+    
     .container {
       position: relative;
       width: 80%;
@@ -123,9 +114,9 @@
       left: 500px;
       width: 45%;
       height: 65%;
-      background: url('images/images6.jpg') no-repeat center/cover;
+      background: url('/images/814657bf02f803c0f07e26d9a33c738e.jpg') no-repeat center/cover;
       background-size: cover;
-      opacity: 0.2;
+      opacity: 0.3;
       z-index: -1;
       clip-path: circle(70% at 50% 50%);
       
@@ -133,7 +124,7 @@
     }
     
 
-    /* Text Section */
+    
     .text-section {
       max-width: 200%;
       text-align: left;
@@ -203,7 +194,7 @@
       color: white;
     }
 
-    /* Image Section */
+    
     .image-section {
       position: relative;
       display: flex;
@@ -254,8 +245,8 @@
 
     .image-card .tag {
       position: absolute;
-      /* bottom: auto;
-      right: auto; */
+      bottom: auto;
+      right: auto;
       background: #fff;
       color: black;
       font-size: 14px;
@@ -263,19 +254,19 @@
       border-radius: 15px;
       display: flex;
       align-items: center;
-      gap: 5px;
+      gap: 3px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
       z-index: 3;
     }
 
     .image-card .tag img {
       width: 20px;
-      right: 400px;
+      left: 1%;
       top: 0px;
       
     }
 
-    /* Right Image Centering */
+    
     .right-image {
       display: flex;
       justify-content: center;
@@ -286,15 +277,7 @@
 /* ===============================2nd========================================= */
 
 
-    /* .container {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 500%;
-      position: relative;
-    } */
-
-    /* Left Section: Orange Triangles */
+    
     .triangles {
       position: relative;
       display: flex;
@@ -312,14 +295,14 @@
       border-bottom: 16px solid orange;
     }
 
-    /* Additional Front Triangles */
+    
     .triangles.front {
       position: absolute;
-      left: -10px; /* Offset slightly in front of the existing triangles */
+      left: -10px; 
       top: 90px;
     }
 
-    /* Main Section: Logos */
+    
     .logos {
       display: flex;
       gap: 60px;
@@ -335,18 +318,18 @@
       margin-top: 100px;
     }
 
-    .logos img:nth-child(3) { /* Smaller for Booking logo */
+    .logos img:nth-child(3) { 
       height: 28px;
     }
 
-    .logos img:last-child { /* Larger for Orbitz logo */
+    .logos img:last-child { 
       height: 40px;
     }
 
-    /* Right Section: Contact Logo */
+    
     .contact-logo {
       position: absolute;
-      top: 140px; /* Adjusted for better visibility */
+      top: 140px;
       right: 200px;
       display: flex;
       align-items: center;
@@ -370,17 +353,17 @@
 
     /* ==============================3rd===================================== */
 
-    /* Services Section */
+    
     .services {
-            padding: 50px 20px;
+            padding: 50px 160px;
             background: linear-gradient(to right, #ffffff, #fffbe6);
             display: flex;
-            justify-content: center; /* Center content horizontally */
-            align-items: center; /* Center content vertically */
-            gap: 90px; /* Add space between text and cards */
+            justify-content: center; 
+            align-items: center; 
+            gap: 90px; 
         }
 
-        /* Left Section Text Styling */
+       
         .services-header {
             max-width: 40%;
             text-align: left;
@@ -399,28 +382,28 @@
             font-weight: bold;
         }
 
-        /* Cards Container */
+        
         .services-kards {
             display: flex;
-            gap: 20px; /* Space between cards */
+            gap: 20px; 
             justify-content: flex-start;
-            flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+            flex-wrap: wrap; 
             width: 650px;
             height: 270px;
         }
 
-        /* Individual Card Styling */
+        
         .kard {
             display: flex;
-            flex-direction: column; /* Stack icon and text vertically */
-            align-items: center; /* Center align the content within the card */
+            flex-direction: column; 
+            align-items: center;
             background: #fff;
             border-radius: 20px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             padding: 50px 10px 50px 10px;
-            width: 200px; /* Set a fixed width for consistent card size */
+            width: 200px; 
             height: 240px;
-            text-align: center; /* Center align the text */
+            text-align: center; 
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
@@ -432,7 +415,7 @@
         .icon1 img {
             width: 50px;
             height: 50px;
-            margin-bottom: 20px; /* Space between the icon and text */
+            margin-bottom: 20px; 
         }
 
         .text h3 {
@@ -463,7 +446,7 @@
             font-size: 14px;
             text-transform: uppercase;
             font-weight: bold;
-            margin-bottom: 20px; /* Gap between title and subtitle */
+            margin-bottom: 20px; 
             margin-left: -180px;
         }
 
@@ -471,7 +454,7 @@
             color: #000;
             font-size: 28px;
             font-weight: bold;
-            margin-bottom: 50px; /* Gap between subtitle and cards */
+            margin-bottom: 50px; 
             margin-left: -180px;
         }
 
@@ -479,7 +462,7 @@
             display: flex;
             margin-top: -20px;
             margin-left: -175px;
-            gap: 30px; /* Adjusted gap between cards */
+            gap: 30px; 
         }
 
         .card2 {
@@ -524,7 +507,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            height: calc(100% - 210px); /* Adjusted height for the card content */
+            height: calc(100% - 210px); 
         }
 
         .card2-description {
@@ -608,12 +591,12 @@
       top: 100px;
       overflow: hidden;
       padding: 250px 100px 250px 100px;
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-      background-color: #ffffff;
+      /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      background-color: #ffffff; */
       position: relative;
     }
 
-    /* Gradient Circles */
+    
     .gradient-circle {
       position: absolute;
       border-radius: 50%;
@@ -632,15 +615,15 @@
     .circle2 {
       width: 10px;
       height: 10px;
-      bottom: 250px;
-      right: 72%;
+      bottom: 290px;
+      right: 70%;
       background: radial-gradient(circle, #ff5733, rgba(0, 0, 0, 0));
     }
 
     .circle3 {
       width: 20px;
       height: 20px;
-      top: 100px;
+      top: 140px;
       right: 61%;
       background: radial-gradient(circle, #ff5733, rgba(0, 0, 0, 0));
     }
@@ -656,8 +639,8 @@
     .circle5 {
       width: 30px;
       height: 30px;
-      top: 230px;
-      right: 68%;
+      top: 280px;
+      right: 65%;
       background: radial-gradient(circle, #ff5733, rgba(0, 0, 0, 0));
     }
 
@@ -767,12 +750,12 @@
     min-width: 10px;
     text-align: center;
     position: relative;
-    background-color: white; /* White background */
-    padding: 20px; /* Padding around the text */
+    background-color: white; 
+    padding: 20px; 
     width: 5px;
     height: 100px;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     margin: 10px 0;
     flex-direction: column;
     align-items: center;
@@ -787,10 +770,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #facd49; /* Yellow background */
-    border-radius: 50%; /* Circle shape */
-    width: 80px; /* Size of the circle */
-    height: 80px; /* Size of the circle */
+    background-color: #facd49; 
+    border-radius: 50%; 
+    width: 80px; 
+    height: 80px; 
   }
 
     .luxury-hotel-icon img {
@@ -802,15 +785,7 @@
 /* ================================6th====================================== */
 
 
-/* .container {
-      display: flex;
-      max-width: 1200px;
-      width: 100%;
-      gap: 2rem;
-      padding: 2rem;
-    } */
 
-    /* Left Section */
     .left-section {
       flex: 1;
     }
@@ -873,7 +848,7 @@
       background-color: pink;
     }
 
-    /* Right Section */
+    
     .right-section {
       flex: 1;
       position: relative;
@@ -882,7 +857,7 @@
     .capsule-image {
       width: 220px;
       height: 350px;
-      border-radius: 120px; /* Smooth corners with straight sides */
+      border-radius: 120px; 
       object-fit: cover;
       position: absolute;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -908,11 +883,11 @@
       position: relative;
     }
 
-    /* Decorative Text and Icon on Image */
+    
     .image-text {
       position: absolute;
-      top: 25%; /* Adjust as needed */
-      right: 35%; /* Adjust as needed */
+      top: 25%; 
+      right: 35%; 
       display: flex;
       align-items: center;
       gap: 0.5rem;
@@ -939,7 +914,7 @@
   position: absolute;
   top: -400px;
   right: -40%;
-  width: 200px;  /* Circle diameter */
+  width: 200px;  
   height: 160px;
   display: flex;
   justify-content: center;
@@ -950,12 +925,11 @@
 
 .x-piece {
   position: absolute;
-  font-size: 0.75rem;  /* Adjust font size to fit the circle */
+  font-size: 0.75rem;  
   font-weight: bold;
   color: yellow;
 }
 
-/* Adjust positions to form a proper circle */
 .x-piece:nth-child(1) { top: 0%; left: 50%; transform: translateX(-50%) translateY(-100%); }
 .x-piece:nth-child(2) { top: 14%; left: 85%; transform: translateX(-50%) translateY(-70%); }
 .x-piece:nth-child(3) { top: 30%; left: 95%; transform: translateX(-50%) translateY(-40%); }
@@ -1064,7 +1038,7 @@
 
     .decorative-lines {
       position: absolute;
-      top: 5%; /* Spread the circle wider */
+      top: 5%; 
       margin-top: -20px;
       right: 45%;
       width: 180px;
@@ -1083,7 +1057,6 @@
       transform-origin: center bottom;
     }
 
-    /* Rotate pieces to form a fuller circle */
     .line-piece:nth-child(1) { transform: rotate(0deg) translate(0, -80px); }
     .line-piece:nth-child(2) { transform: rotate(15deg) translate(0, -80px); }
     .line-piece:nth-child(3) { transform: rotate(30deg) translate(0, -80px); }
@@ -1113,18 +1086,26 @@
 /* ================================7th====================================== */
 
 
-/* Testimonial Section Styling */
+
 .testimonial-section {
+      position: relative;
       text-align: center;
-      /* background: linear-gradient(to right, #f8f3fc, #ffffff); */
+      background: url('images/Layer_1.png'); 
+      background-size: cover;
+      background-repeat: no-repeat; 
+      background-position: center; 
       padding: 50px;
-      /* border-radius: 10px; */
+      /* border: none; */
+      margin: 0 auto;
+      /* border-radius: 20px; */
       /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); */
       width: 80%;
       max-width: 900px;
+      
     }
 
-    /* Title and Subtitle */
+
+    
     .testimonial-title {
       color: #ff8eb3;
       font-size: 1.2rem;
@@ -1139,7 +1120,7 @@
       margin-bottom: 30px;
     }
 
-    /* Testimonial Container */
+   
     .testimonial-container {
       display: flex;
       align-items: center;
@@ -1153,7 +1134,7 @@
       padding: 10px;
       cursor: pointer;
       border-radius: 50%;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
     }
 
     .nav-arrow.left-arrow {
@@ -1171,7 +1152,7 @@
       color: #ffffff;
     }
 
-    /* Testimonial Content */
+    
     .testimonial-content {
       flex: 1;
       text-align: center;
@@ -1218,7 +1199,7 @@
       margin: 0 auto;
     }
 
-    /* Pagination Dots */
+    
     .pagination {
       margin-top: 20px;
     }
@@ -1248,8 +1229,9 @@
       position: relative;
       border-radius: 10px;
       width: 90%;
-      max-width: 700px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      top: 10%;
+      max-width: 900px;
+      /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     }
 
     .pattern-top-left {
@@ -1258,16 +1240,16 @@
       left: -30px;
       width: 100px;
       height: 100px;
-      background: url('images/Picsart_24-12-29_17-18-56-390.png') no-repeat center/contain; /* Replace with your dot triangle image path */
+      background: url('images/Picsart_24-12-29_17-18-56-390.png') no-repeat center/contain; 
     }
 
     .bottom-right-design {
       position: absolute;
       bottom: -250px;
       right: -330px;
-      width: 50px; /* Adjust size as needed */
+      width: 50px; 
       height: auto;
-      z-index: -1; /* Ensures the design stays behind content */
+      z-index: -1; 
     }
 
     .newsletter-title {
@@ -1297,7 +1279,7 @@
     }
 
     input[type="email"] {
-      padding: 10px 15px 10px 40px; /* Add padding for the icon */
+      padding: 10px 15px 10px 40px; 
       border: 1px solid #ddd;
       border-radius: 25px;
       flex: 1;
@@ -1327,18 +1309,9 @@
 
     button:hover {
       background-color: #483D8B;
-    }
+    }   
 
 
-
-
-    
-
-
-/* ================================9th====================================== */    
-
-
- /* General Footer Styling */
  .footer1 {
   background-color: #f9f9f9;
   color: #333;
@@ -1373,7 +1346,7 @@
 }
 
 .footer1-logo img {
-      width: 20px; /* Adjust logo size */
+      width: 20px; 
       height: 20px;
       margin-left: -30%;
       
@@ -1381,16 +1354,16 @@
 
 
 
-/* Left Section Styling */
+
 .footer1-left p {
   line-height: 1.6;
   font-size: 14px;
 }
 
-/* Middle Section Styling */
+
 .footer1-middle {
   display: flex;
-  gap: 10px; /* Space between columns */
+  gap: 10px; 
 }
 
 .footer1-middle .column {
@@ -1421,10 +1394,10 @@
 }
 
 .footer1-middle ul li a:hover {
-  color: #6a5acd; /* Purple hover effect */
+  color: #6a5acd; 
 }
 
-/* Right Section Styling */
+
 .footer1-right h4 {
   font-size: 16px;
   font-weight: bold;
@@ -1446,7 +1419,7 @@
   color: #6a5acd;
 }
 
-/* Social Media Icons */
+
 .footer1-social {
   text-align: center; 
   margin-left: -600px;
@@ -1469,602 +1442,4 @@
 .footer1-social img:hover {
   transform: scale(1.1);
 }
-
-
-
-  </style>
-</head>
-<body>
-  <!-- Navbar -->
-  <div class="navbar">
-    <div class="logo-container">
-      <img src="images/images.jpg" alt="Site Logo">
-      <h2>Travlog</h2>
-    </div>
-    <ul>
-      <li>Home</li>
-      <li>Destinations</li>
-      <li>About Us</li>
-      <li>Contact</li>
-    </ul>
-    <div class="auth-buttons">
-      <button class="btn login">Login</button>
-      <button class="btn signup">Signup</button>
-    </div>
-  </div>
-
-  <!-- Main Content -->
-  <div class="container">
-    <div class="background"></div>
-
-    <!-- Text Section -->
-    <div class="text-section">
-      <div class="badge">
-        <span class="icon1">Explore the world!🎁</span>
-      </div>
-      <h1>
-        Travel <span class="highlight">top destination</span><br> of the world
-      </h1>
-      <p>We always make our customer happy by providing as many choices as possible</p>
-      <div class="buttons">
-        <button class="btn get-started">Get Started</button>
-        <button class="btn watch-demo">Watch Demo</button>
-      </div>
-    </div>
-
-    <!-- Image Section -->
-    <div class="image-section">
-      <!-- Left Images -->
-      <div class="left-images">
-        <div class="image-card">
-          <img src="images/images3.jpg" alt="Destination 1">
-          <div class="logo">
-            <img src="images/telegram-image.jpg" alt="Telegram Logo">
-          </div>
-        </div>
-        
-        <div class="image-card">
-          <img src="images/images4.jpg" alt="Destination 2">
-        </div>
-      </div>
-
-      <!-- Right Image -->
-      <div class="right-image">
-        <div class="image-card">
-          <img src="images/images5.jpg" alt="Destination 3">
-          <div class="tag">
-            <img src="images/location-image.png" alt="Location">Top Places
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-<!-- ==========================2nd HTML=================================-->
-
-
-  <div class="container">
-    <!-- Left Section: Original Orange Triangles -->
-    <div class="triangles">
-      <div class="triangle"></div>
-      <div class="triangle"></div>
-      <div class="triangle"></div>
-      <div class="triangle"></div>
-      <div class="triangle"></div>
-      <div class="triangle"></div>
-    </div>
-
-    <!-- Left Section: Additional Front Triangles -->
-    <div class="triangles front">
-      <div class="triangle"></div>
-      <div class="triangle"></div>
-      <div class="triangle"></div>
-      <div class="triangle"></div>
-      <div class="triangle"></div>
-      <div class="triangle"></div>
-    </div>
-
-    <!-- Main Section: Logos -->
-    <div class="logos">
-      <img src="images/tripadvisor1.png" alt="Tripadvisor">
-      <img src="images/Expedia.png" alt="Expedia">
-      <img src="images/booking.png" alt="Booking.com">
-      <img src="images/airbnb1.png" alt="Airbnb">
-      <img src="images/orbitz2.png" alt="Orbitz">
-    </div>
-
-    <!-- Right Section: Contact Logo -->
-    <div class="contact-logo">
-      <div class="circle">
-        <img src="images/contact.png" alt="Contact">
-      </div>
-    </div>
-  </div>
-
-
-
-<!-- ==========================3rd HTML=================================-->
-
-  <section class="services">
-    <!-- Text Section -->
-    <div class="services-header">
-        <h5>SERVICES</h5>
-        <h1>Our top value <br>categories for you</h1>
-    </div>
-    
-    <!-- Cards Section -->
-    <div class="services-kards">
-        <!-- Card 1 -->
-        <div class="kard">
-            <div class="icon1">
-                <img src="images/world-icon.png" alt="Tour Guide Icon">
-            </div>
-            <div class="text">
-                <h3>Best Tour Guide</h3>
-                <p>What looked like a small <br>patch of purple grass,<br> above five feet.</p>
-            </div>
-        </div>
-        <!-- Card 2 -->
-        <div class="kard">
-            <div class="icon1">
-                <img src="images/easy-booking.jpg" alt="Easy Booking Icon">
-            </div>
-            <div class="text">
-                <h3>Easy Booking</h3>
-                <p>Square, was moving <br> across the sand in their <br> direction.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<!-- ==========================4th HTML=================================-->
-
-
-<div class="container1">
-  <p class="title">Top Destination</p>
-  <h1 class="subtitle">Explore top destination</h1>
-
-  <div class="cards1">
-      <!-- Card 1 -->
-      <div class="card2">
-          <img src="images/beach.jfif" alt="Paradise Beach">
-          <div class="card2-header">
-              <p class="card2-title">Paradise Beach,<br> Bantayan Island</p>
-              <p class="card2-price">$550.16</p>
-          </div>
-          <div class="card2-content">
-              <p class="card2-description">Rome, Italy</p>
-              <div class="card2-rating">
-                   <span class="star">&#9733;  4.8⭐</span> 
-              </div>
-          </div>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="card2">
-          <img src="images/fish.jfif" alt="Ocean full of colors">
-          <div class="card2-header">
-              <p class="card2-title">Ocean with full of <br>Colors</p>
-              <p class="card2-price">$20.99</p>
-          </div>
-          <div class="card2-content">
-              <p class="card2-description">Maldives</p>
-              <div class="card2-rating">
-                   <span class="star">&#9733; 4.5⭐</span>
-              </div>
-          </div>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="card2">
-          <img src="images/cloud.jfif" alt="Mountain View">
-          <div class="card2-header">
-              <p class="card2-title">Mountain View,<br> Above the cloud</p>
-              <p class="card2-price">$150.99</p>
-          </div>
-          <div class="card2-content">
-              <p class="card2-description">United Arab Emirates</p>
-              <div class="card2-rating">
-                    <span class="star">&#9733; 5.0⭐</span> 
-              </div>
-          </div>
-      </div>
-  </div>
-
-  <div class="navigation">
-      <div class="nav-button">&#8592;</div>
-      <div class="nav-button active">&#8594;</div>
-  </div>
-
-  <div class="decorative">
-      <div class="row">
-          <span>&#10006;</span>
-      </div>
-      <div class="row">
-          <span>&#10006;</span>
-          <span>&#10006;</span>
-      </div>
-      <div class="row">
-          <span>&#10006;</span>
-          <span>&#10006;</span>
-          <span>&#10006;</span>
-      </div>
-  </div>
-</div>
-
-
-<!-- ==========================5th HTML=================================-->
-
-
-<div class="travel-container">
-  <!-- Gradient Circles -->
-  <div class="gradient-circle circle1"></div>
-  <div class="gradient-circle circle2"></div>
-  <div class="gradient-circle circle3"></div>
-  <div class="gradient-circle circle4"></div>
-  <div class="gradient-circle circle5"></div>
-
-  <!-- Background Design -->
-  <div class="background-capsule"></div>
-
-  <!-- Left Section -->
-  <div class="left-section">
-    <div class="image-wrapper">
-      <img src="images/file.png" alt="Traveler" class="backpacker-img">
-      <div class="discount-badge">
-        <img src="images/discount-image.jpg" alt="Discount Icon"> Discounted Price
-      </div>
-    </div>
-  </div>
-
-  <!-- Right Section -->
-  <div class="right-section">
-    <h1 class="travel-point">Travel Point</h1>
-    <h2 class="travel-heading">We helping you find your dream location</h2>
-    <p class="travel-subtext">
-      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
-    </p>
-    <div class="stats">
-      <div class="stat-item">
-        <strong>500+</strong><br>Holiday Package
-      </div>
-      <div class="stat-item">
-        <strong>100</strong><br>
-        Luxury Hotel
-        <span class="luxury-hotel-icon">
-          <img src="images/hotel.png" alt="Hotel Icon">
-        </span>
-      </div>
-      <div class="stat-item">
-        <strong>7</strong><br>Premium Airlines
-      </div>
-      <div class="stat-item">
-        <strong>2k+</strong><br>Happy Customer
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- ==========================6th HTML=================================-->
-
-
-<div class="container">
-  <!-- Left Section -->
-  <div class="left-section">
-    <p class="subheading">Key Features</p>
-    <h1>We offer the best services</h1>
-    <p class="description">
-      Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-      roots in a piece of classical Latin literature from 45 BC.
-    </p>
-
-    <!-- Feature List -->
-    <div class="features">
-      <div class="feature-item">
-        <div class="icon orange">
-          <img src="images/image-location-icon-6.jpg" alt="Service Icon">
-        </div>
-        <div class="text">
-          <h3>We offer best services</h3>
-          <p>Lorem Ipsum is not simply random text</p>
-        </div>
-      </div>
-      <div class="feature-item">
-        <div class="icon yellow">
-          <img src="images/calender-image.png" alt="Calendar Icon">
-        </div>
-        <div class="text">
-          <h3>Schedule your trip</h3>
-          <p>It has roots in a piece of classical</p>
-        </div>
-      </div>
-      <div class="feature-item">
-        <div class="icon pink">
-          <img src="images/discounted-coupen.png" alt="Coupon Icon">
-        </div>
-        <div class="text">
-          <h3>Get discounted coupons</h3>
-          <p>Lorem Ipsum is not simply random text</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Right Section -->
-  <div class="right-section">
-    <div class="image-overlay">
-      <img src="images/church-image.jpg" alt="Church" class="capsule-image main">
-      <!-- Decorative Text with Icon -->
-      <div class="image-text">
-        <img src="images/Google Maps icon.jpg" alt="Earth Icon">
-        <span>Paradise on Earth</span>
-      </div>
-      <!-- Decorative Patterns -->
-      <div class="decorative-x">
-          <div class="x-line">
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            <span class="x-piece">X</span>
-            </div> 
-      </div>
-
-      <div class="decorative-lines">
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-        <div class="line-piece"></div>
-      </div>
-    </div>
-    <img src="images/sky-dying.jpg" alt="Water" class="capsule-image secondary">
-  </div>
-</div>
-
-
-<!-- ==========================7th HTML=================================-->
-
-
-<div class="testimonial-section">
-  <h2 class="testimonial-title">TESTIMONIALS</h2>
-  <h3 class="testimonial-subtitle">Trust our clients</h3>
-
-  <div class="testimonial-container">
-    <!-- Left Arrow -->
-    <button class="nav-arrow left-arrow">&larr;</button>
-
-    <!-- Testimonial Content -->
-    <div class="testimonial-content">
-      <div class="client-image">
-        <img src="images/lens.jpg" alt="Client with VR Goggles">
-      </div>
-      <h4 class="client-name">Mark Smith <span>/ Travel Enthusiast</span></h4>
-      <div class="rating">
-        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-      </div>
-      <p class="testimonial-text">
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.
-      </p>
-    </div>
-
-    <!-- Right Arrow -->
-    <button class="nav-arrow right-arrow">&rarr;</button>
-  </div>
-
-  <!-- Pagination Dots -->
-  <div class="pagination">
-    <span class="dot"></span>
-    <span class="dot active"></span>
-    <span class="dot"></span>
-  </div>
-</div>
-
-
-<!-- ==========================8th HTML=================================-->
-
-
-<div class="newsletter-container">
-  <div class="pattern-top-left"></div>
-  <h3 class="newsletter-title">SUBSCRIBE TO OUR NEWSLETTER</h3>
-  <h1 class="main-heading">Prepare yourself & let’s explore the beauty of the world</h1>
-  <form class="subscription-form">
-    <div class="input-container">
-      <img src="images/email.png" alt="Email Icon" class="email-icon"> <!-- Replace with your email icon image -->
-      <input type="email" placeholder="Your Email" required>
-      <button type="submit">Subscribe</button>
-    </div>
-  </form>
-  <img src="images/heroobj-2582171a.svg" alt="Decorative Design" class="bottom-right-design">
-</div>
-
-
-
-<!-- ==========================9th HTML=================================-->
-
-
-<footer class="footer1">
-  <div class="footer1-container">
-    <!-- Left Section -->
-    <div class="footer1-left">
-      <div class="footer1-logo">
-        <img src="images/images.jpg" alt="Travlog Logo"> <!-- Replace with your Travlog logo image -->
-        Travlog
-      </div>
-      <p>
-        Contrary to popular belief,<br> Lorem Ipsum is not simply <br> random text. 
-        It has roots <br> in a piece of classical Latin <br> literature from 45 BC.
-      </p>
-    </div>
-
-    <!-- Middle Section -->
-    <div class="footer1-middle">
-      <div class="column">
-        <h4>Company</h4>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Career</a></li>
-          <li><a href="#">Mobile</a></li>
-        </ul>
-      </div>
-      <div class="column">
-        <h4>Resources</h4>
-        <ul>
-          <li><a href="#">Why Travlog?</a></li>
-          <li><a href="#">Partner with us</a></li>
-          <li><a href="#">FAQs</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Right Section -->
-    <div class="footer1-right">
-      <h4>Contact</h4>
-      <p>+00 92 1234 56789</p>
-      <p><a href="mailto:info@travlog.com">info@travlog.com</a></p>
-      <p>205. R Street, New York</p>
-      <p>BD23200</p>
-    </div>
-  </div>
-
-  <!-- Social Media Icons -->
-  <div class="footer1-social">
-    <a href="#"><img src="images/facebook.jpg" alt="Facebook"></a>
-    <a href="#"><img src="images/tweeter.png" alt="Twitter"></a>
-    <a href="#"><img src="images/instagram.jpg" alt="Instagram"></a>
-  </div>
-</footer>
-
-
-
-</body>
-</html>
-
-
-
-
 
